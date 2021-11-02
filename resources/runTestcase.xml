@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Mobile Automation Framework Demo">
+
+	<listeners>
+		<listener class-name="ultilities.MethodListener" />
+	</listeners>
+
+	<test name="Run On Samsung S10">
+		<classes>
+			<class name="com.company.auth.TC_01_Register" />
+			<class name="com.company.auth.TC_02_Login" />
+		</classes>
+	</test>
+</suite>
